@@ -72,6 +72,19 @@ MIT — see **`LICENSE`**.
 
 ## Citation
 
-If you use this software, cite the accompanying manuscript (preprint DOI **TBD**).
+Software (this repository):
 
-Repository: https://github.com/fredlandik3000-lgtm/pampl
+```bibtex
+@software{pampl2026,
+  title  = {PAMPL: Phase-Aware Machine Learning Pipeline for CAR-T Outcome Prediction},
+  author = {Landik, Alfred and others},
+  year   = {2026},
+  url    = {https://github.com/fredlandik3000-lgtm/pampl},
+  version = {v0.1.0-manuscript},
+  license = {MIT}
+}
+```
+
+Machine-readable metadata: **`CITATION.cff`**. Git tag for manuscript alignment: **`v0.1.0-manuscript`**.
+
+Manuscript preprint DOI: **TBD**. Zenodo archive DOI: **TBD** — see **`docs/ZENODO.md`**.

@@ -6,7 +6,7 @@
 
 
 
-**Repository.** The PAMPL application and pipeline code live at **https://github.com/fredlandik3000-lgtm/pampl** (package `biomarkers_app/`; see repository root `AGENTS.md` for layout). A **persistent archive** (e.g. Zenodo) with a **citable DOI** will be linked at final preprint submission: **`TBD — Zenodo DOI`**.
+**Repository.** The PAMPL application and pipeline code live at **https://github.com/fredlandik3000-lgtm/pampl** (package `biomarkers_app/`; see repository root `AGENTS.md` for layout). A **persistent Zenodo archive** with a **citable DOI** will be linked at final preprint submission: **`TBD — Zenodo DOI`** (see `docs/ZENODO.md` for archiving steps).
 
 
 
@@ -14,7 +14,7 @@
 
 
 
-**Commit / tag.** Manuscript tables and figures should be regenerated from a **named git tag** or commit hash recorded here at submission: **`TBD — insert tag or SHA after release`**. 
+**Commit / tag.** Manuscript tables and figures should be regenerated from git tag **`v0.1.0-manuscript`** (commit recorded at release; see GitHub tag list). Update this line if a newer manuscript tag supersedes it. 
 
 
 
@@ -30,7 +30,7 @@
 
 
 
-**License.** **MIT License** (recommended for reuse; confirm with institutional policy before release). If a different license is required, replace this sentence and the `LICENSE` file in the repository.
+**License.** **MIT License** — see `LICENSE` in the repository root.
 
 
 

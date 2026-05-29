@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+title: "PAMPL: Phase-Aware Machine Learning Pipeline for CAR-T Outcome Prediction"
+message: >-
+  If you use this software, please cite this repository (version tag below)
+  and the accompanying manuscript preprint once available.
+type: software
+authors:
+  - family-names: Landik
+    given-names: Alfred
+    affiliation: "See manuscript preprint for full author list and affiliations"
+repository-code: "https://github.com/fredlandik3000-lgtm/pampl"
+url: "https://github.com/fredlandik3000-lgtm/pampl"
+license: MIT
+version: v0.1.0-manuscript
+date-released: "2026-05-29"
+keywords:
+  - CAR-T
+  - machine learning
+  - clinical prediction
+  - balanced accuracy
+  - evaluable gates
+  - PyQt6
+  - internal validation
+abstract: >-
+  Phase-aware machine learning pipeline and desktop application for CAR-T
+  outcome prediction with evaluable-gate label construction, baseline-first
+  evaluation, and uncertainty-aware reporting. Clinical data are not
+  distributed with this release.
