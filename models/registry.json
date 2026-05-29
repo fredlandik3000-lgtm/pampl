@@ -1,0 +1,550 @@
+{
+  "phase_-6": {
+    "D30_response_3class": {
+      "model_family": "NN",
+      "metric": "balanced_accuracy",
+      "value": 0.534,
+      "accuracy": 0.5167,
+      "auc": 0.6603,
+      "f1_score": 0.5183,
+      "timestamp": "2026-02-26T16:23:31"
+    },
+    "D90_is_cr": {
+      "model_family": "RF",
+      "metric": "balanced_accuracy",
+      "value": 0.6724,
+      "accuracy": 0.6724,
+      "auc": 0.648,
+      "f1_score": 0.6676,
+      "timestamp": "2026-02-26T16:23:31"
+    },
+    "crs_grade_ge2": {
+      "model_family": "NN",
+      "metric": "balanced_accuracy",
+      "value": 0.6743,
+      "accuracy": 0.716,
+      "auc": 0.6779,
+      "f1_score": 0.5802,
+      "timestamp": "2026-02-26T16:23:31"
+    },
+    "icans_grade_ge2": {
+      "model_family": "NN",
+      "metric": "balanced_accuracy",
+      "value": 0.675,
+      "accuracy": 0.8272,
+      "auc": 0.7615,
+      "f1_score": 0.5833,
+      "timestamp": "2026-02-26T16:23:31"
+    },
+    "max_crs_grade": {
+      "model_family": "NN",
+      "metric": "balanced_accuracy",
+      "value": 0.457,
+      "accuracy": 0.4386,
+      "auc": 0.6158,
+      "f1_score": 0.394,
+      "timestamp": "2026-02-26T16:23:31"
+    },
+    "icans_max_grade": {
+      "model_family": "XGB",
+      "metric": "balanced_accuracy",
+      "value": 0.3756,
+      "accuracy": 0.5676,
+      "auc": 0.6661,
+      "f1_score": 0.3473,
+      "timestamp": "2026-02-26T16:23:31"
+    },
+    "infection_100days": {
+      "model_family": "RF",
+      "metric": "balanced_accuracy",
+      "value": 0.5,
+      "accuracy": 0.8276,
+      "auc": 0.3625,
+      "f1_score": 0.4528,
+      "timestamp": "2026-02-26T16:23:31"
+    },
+    "relapse_or_progression": {
+      "model_family": "RF",
+      "metric": "balanced_accuracy",
+      "value": 0.6618,
+      "accuracy": 0.6618,
+      "auc": 0.6531,
+      "f1_score": 0.6599,
+      "timestamp": "2026-02-26T16:23:31"
+    },
+    "survival_status_lfu": {
+      "model_family": "LR",
+      "metric": "balanced_accuracy",
+      "value": 0.6304,
+      "accuracy": 0.7037,
+      "auc": 0.6496,
+      "f1_score": 0.6357,
+      "timestamp": "2026-02-26T16:23:31"
+    },
+    "cat_cause_death": {
+      "model_family": "XGB",
+      "metric": "balanced_accuracy",
+      "value": 0.5556,
+      "accuracy": 0.5556,
+      "auc": 0.4444,
+      "f1_score": 0.5398,
+      "timestamp": "2026-02-26T16:23:31"
+    },
+    "cart_response_6_mos": {
+      "model_family": "XGB",
+      "metric": "balanced_accuracy",
+      "value": 0.4057,
+      "accuracy": 0.6744,
+      "auc": 0.7584,
+      "f1_score": 0.4096,
+      "timestamp": "2026-02-26T16:23:31"
+    },
+    "cart_response_1_yr": {
+      "model_family": "LR",
+      "metric": "balanced_accuracy",
+      "value": 0.6296,
+      "accuracy": 0.6667,
+      "auc": 0.659,
+      "f1_score": 0.62,
+      "timestamp": "2026-02-26T16:23:31"
+    },
+    "best_response": {
+      "model_family": "LR",
+      "metric": "balanced_accuracy",
+      "value": 0.2706,
+      "accuracy": 0.5875,
+      "auc": 0.5089,
+      "f1_score": 0.2646,
+      "timestamp": "2026-02-26T16:23:31"
+    },
+    "cart_response_category_D30": {
+      "model_family": "RF",
+      "metric": "balanced_accuracy",
+      "value": 0.285,
+      "accuracy": 0.4754,
+      "auc": 0.6239,
+      "f1_score": 0.2832,
+      "timestamp": "2026-02-26T16:23:31"
+    },
+    "cart_response_90_days": {
+      "model_family": "RF",
+      "metric": "balanced_accuracy",
+      "value": 0.3208,
+      "accuracy": 0.5932,
+      "auc": 0.7127,
+      "f1_score": 0.3214,
+      "timestamp": "2026-02-26T16:23:31"
+    }
+  },
+  "phase_0": {
+    "D30_response_3class": {
+      "model_family": "RF",
+      "metric": "balanced_accuracy",
+      "value": 0.4916,
+      "accuracy": 0.5167,
+      "auc": 0.6791,
+      "f1_score": 0.488,
+      "timestamp": "2026-02-26T16:23:31"
+    },
+    "D90_is_cr": {
+      "model_family": "RF",
+      "metric": "balanced_accuracy",
+      "value": 0.6724,
+      "accuracy": 0.6724,
+      "auc": 0.648,
+      "f1_score": 0.6676,
+      "timestamp": "2026-02-26T16:23:31"
+    },
+    "crs_grade_ge2": {
+      "model_family": "NN",
+      "metric": "balanced_accuracy",
+      "value": 0.6414,
+      "accuracy": 0.716,
+      "auc": 0.6971,
+      "f1_score": 0.6187,
+      "timestamp": "2026-02-26T16:23:31"
+    },
+    "icans_grade_ge2": {
+      "model_family": "NN",
+      "metric": "balanced_accuracy",
+      "value": 0.6909,
+      "accuracy": 0.8519,
+      "auc": 0.7654,
+      "f1_score": 0.5805,
+      "timestamp": "2026-02-26T16:23:31"
+    },
+    "max_crs_grade": {
+      "model_family": "NN",
+      "metric": "balanced_accuracy",
+      "value": 0.417,
+      "accuracy": 0.4386,
+      "auc": 0.6344,
+      "f1_score": 0.3632,
+      "timestamp": "2026-02-26T16:23:31"
+    },
+    "icans_max_grade": {
+      "model_family": "XGB",
+      "metric": "balanced_accuracy",
+      "value": 0.3756,
+      "accuracy": 0.5676,
+      "auc": 0.6661,
+      "f1_score": 0.3473,
+      "timestamp": "2026-02-26T16:23:31"
+    },
+    "infection_100days": {
+      "model_family": "RF",
+      "metric": "balanced_accuracy",
+      "value": 0.5,
+      "accuracy": 0.8276,
+      "auc": 0.3625,
+      "f1_score": 0.4528,
+      "timestamp": "2026-02-26T16:23:31"
+    },
+    "relapse_or_progression": {
+      "model_family": "RF",
+      "metric": "balanced_accuracy",
+      "value": 0.6618,
+      "accuracy": 0.6618,
+      "auc": 0.6531,
+      "f1_score": 0.6599,
+      "timestamp": "2026-02-26T16:23:31"
+    },
+    "survival_status_lfu": {
+      "model_family": "LR",
+      "metric": "balanced_accuracy",
+      "value": 0.6304,
+      "accuracy": 0.7037,
+      "auc": 0.6496,
+      "f1_score": 0.6357,
+      "timestamp": "2026-02-26T16:23:31"
+    },
+    "cat_cause_death": {
+      "model_family": "XGB",
+      "metric": "balanced_accuracy",
+      "value": 0.5556,
+      "accuracy": 0.5556,
+      "auc": 0.4444,
+      "f1_score": 0.5398,
+      "timestamp": "2026-02-26T16:23:31"
+    },
+    "cart_response_6_mos": {
+      "model_family": "XGB",
+      "metric": "balanced_accuracy",
+      "value": 0.4057,
+      "accuracy": 0.6744,
+      "auc": 0.7584,
+      "f1_score": 0.4096,
+      "timestamp": "2026-02-26T16:23:31"
+    },
+    "cart_response_1_yr": {
+      "model_family": "LR",
+      "metric": "balanced_accuracy",
+      "value": 0.6296,
+      "accuracy": 0.6667,
+      "auc": 0.659,
+      "f1_score": 0.62,
+      "timestamp": "2026-02-26T16:23:31"
+    },
+    "best_response": {
+      "model_family": "LR",
+      "metric": "balanced_accuracy",
+      "value": 0.2706,
+      "accuracy": 0.5875,
+      "auc": 0.5089,
+      "f1_score": 0.2646,
+      "timestamp": "2026-02-26T16:23:31"
+    },
+    "cart_response_category_D30": {
+      "model_family": "RF",
+      "metric": "balanced_accuracy",
+      "value": 0.285,
+      "accuracy": 0.4754,
+      "auc": 0.6239,
+      "f1_score": 0.2832,
+      "timestamp": "2026-02-26T16:23:31"
+    },
+    "cart_response_90_days": {
+      "model_family": "RF",
+      "metric": "balanced_accuracy",
+      "value": 0.3208,
+      "accuracy": 0.5932,
+      "auc": 0.7127,
+      "f1_score": 0.3214,
+      "timestamp": "2026-02-26T16:23:31"
+    }
+  },
+  "phase_15": {
+    "D30_response_3class": {
+      "model_family": "XGB",
+      "metric": "balanced_accuracy",
+      "value": 0.4835,
+      "accuracy": 0.5,
+      "auc": 0.6493,
+      "f1_score": 0.4867,
+      "timestamp": "2026-02-26T16:23:31"
+    },
+    "D90_is_cr": {
+      "model_family": "RF",
+      "metric": "balanced_accuracy",
+      "value": 0.6207,
+      "accuracy": 0.6207,
+      "auc": 0.6671,
+      "f1_score": 0.6166,
+      "timestamp": "2026-02-26T16:23:31"
+    },
+    "crs_grade_ge2": {
+      "model_family": "NN",
+      "metric": "balanced_accuracy",
+      "value": 0.6393,
+      "accuracy": 0.6914,
+      "auc": 0.6914,
+      "f1_score": 0.624,
+      "timestamp": "2026-02-26T16:23:31"
+    },
+    "icans_grade_ge2": {
+      "model_family": "XGB",
+      "metric": "balanced_accuracy",
+      "value": 0.6337,
+      "accuracy": 0.7901,
+      "auc": 0.6894,
+      "f1_score": 0.643,
+      "timestamp": "2026-02-26T16:23:31"
+    },
+    "max_crs_grade": {
+      "model_family": "XGB",
+      "metric": "balanced_accuracy",
+      "value": 0.4071,
+      "accuracy": 0.4737,
+      "auc": 0.5938,
+      "f1_score": 0.3989,
+      "timestamp": "2026-02-26T16:23:31"
+    },
+    "icans_max_grade": {
+      "model_family": "RF",
+      "metric": "balanced_accuracy",
+      "value": 0.3311,
+      "accuracy": 0.5405,
+      "auc": 0.6033,
+      "f1_score": 0.3044,
+      "timestamp": "2026-02-26T16:23:31"
+    },
+    "infection_100days": {
+      "model_family": "RF",
+      "metric": "balanced_accuracy",
+      "value": 0.5,
+      "accuracy": 0.8276,
+      "auc": 0.4333,
+      "f1_score": 0.4528,
+      "timestamp": "2026-02-26T16:23:31"
+    },
+    "relapse_or_progression": {
+      "model_family": "RF",
+      "metric": "balanced_accuracy",
+      "value": 0.6618,
+      "accuracy": 0.6618,
+      "auc": 0.6315,
+      "f1_score": 0.6581,
+      "timestamp": "2026-02-26T16:23:31"
+    },
+    "survival_status_lfu": {
+      "model_family": "NN",
+      "metric": "balanced_accuracy",
+      "value": 0.6546,
+      "accuracy": 0.716,
+      "auc": 0.7204,
+      "f1_score": 0.6559,
+      "timestamp": "2026-02-26T16:23:31"
+    },
+    "cat_cause_death": {
+      "model_family": "LR",
+      "metric": "balanced_accuracy",
+      "value": 0.5556,
+      "accuracy": 0.5926,
+      "auc": 0.5,
+      "f1_score": 0.5534,
+      "timestamp": "2026-02-26T16:23:31"
+    },
+    "cart_response_6_mos": {
+      "model_family": "NN",
+      "metric": "balanced_accuracy",
+      "value": 0.5507,
+      "accuracy": 0.4186,
+      "auc": 0.719,
+      "f1_score": 0.3522,
+      "timestamp": "2026-02-26T16:23:31"
+    },
+    "cart_response_1_yr": {
+      "model_family": "LR",
+      "metric": "balanced_accuracy",
+      "value": 0.6296,
+      "accuracy": 0.6667,
+      "auc": 0.6497,
+      "f1_score": 0.62,
+      "timestamp": "2026-02-26T16:23:31"
+    },
+    "best_response": {
+      "model_family": "LR",
+      "metric": "balanced_accuracy",
+      "value": 0.2797,
+      "accuracy": 0.6125,
+      "auc": 0.5332,
+      "f1_score": 0.2741,
+      "timestamp": "2026-02-26T16:23:31"
+    },
+    "cart_response_category_D30": {
+      "model_family": "LR",
+      "metric": "balanced_accuracy",
+      "value": 0.2493,
+      "accuracy": 0.3934,
+      "auc": 0.5992,
+      "f1_score": 0.2491,
+      "timestamp": "2026-02-26T16:23:31"
+    },
+    "cart_response_90_days": {
+      "model_family": "LR",
+      "metric": "balanced_accuracy",
+      "value": 0.3091,
+      "accuracy": 0.5254,
+      "auc": 0.6328,
+      "f1_score": 0.3064,
+      "timestamp": "2026-02-26T16:23:31"
+    }
+  },
+  "phase_30": {
+    "D30_response_3class": {
+      "model_family": "NN",
+      "metric": "balanced_accuracy",
+      "value": 0.4955,
+      "accuracy": 0.4667,
+      "auc": 0.667,
+      "f1_score": 0.4637,
+      "timestamp": "2026-02-26T16:23:31"
+    },
+    "D90_is_cr": {
+      "model_family": "RF",
+      "metric": "balanced_accuracy",
+      "value": 0.6552,
+      "accuracy": 0.6552,
+      "auc": 0.6576,
+      "f1_score": 0.6514,
+      "timestamp": "2026-02-26T16:23:31"
+    },
+    "crs_grade_ge2": {
+      "model_family": "XGB",
+      "metric": "balanced_accuracy",
+      "value": 0.6107,
+      "accuracy": 0.6914,
+      "auc": 0.6921,
+      "f1_score": 0.6154,
+      "timestamp": "2026-02-26T16:23:31"
+    },
+    "icans_grade_ge2": {
+      "model_family": "NN",
+      "metric": "balanced_accuracy",
+      "value": 0.675,
+      "accuracy": 0.8519,
+      "auc": 0.7635,
+      "f1_score": 0.5833,
+      "timestamp": "2026-02-26T16:23:31"
+    },
+    "max_crs_grade": {
+      "model_family": "NN",
+      "metric": "balanced_accuracy",
+      "value": 0.4796,
+      "accuracy": 0.4912,
+      "auc": 0.6296,
+      "f1_score": 0.3974,
+      "timestamp": "2026-02-26T16:23:31"
+    },
+    "icans_max_grade": {
+      "model_family": "LR",
+      "metric": "balanced_accuracy",
+      "value": 0.34,
+      "accuracy": 0.4865,
+      "auc": 0.6057,
+      "f1_score": 0.325,
+      "timestamp": "2026-02-26T16:23:31"
+    },
+    "infection_100days": {
+      "model_family": "NN",
+      "metric": "balanced_accuracy",
+      "value": 0.5,
+      "accuracy": 0.8276,
+      "auc": 0.4083,
+      "f1_score": 0.4528,
+      "timestamp": "2026-02-26T16:23:31"
+    },
+    "relapse_or_progression": {
+      "model_family": "RF",
+      "metric": "balanced_accuracy",
+      "value": 0.6176,
+      "accuracy": 0.6176,
+      "auc": 0.6237,
+      "f1_score": 0.6163,
+      "timestamp": "2026-02-26T16:23:31"
+    },
+    "survival_status_lfu": {
+      "model_family": "LR",
+      "metric": "balanced_accuracy",
+      "value": 0.6557,
+      "accuracy": 0.7037,
+      "auc": 0.7082,
+      "f1_score": 0.6601,
+      "timestamp": "2026-02-26T16:23:31"
+    },
+    "cat_cause_death": {
+      "model_family": "LR",
+      "metric": "balanced_accuracy",
+      "value": 0.6111,
+      "accuracy": 0.7037,
+      "auc": 0.5864,
+      "f1_score": 0.6143,
+      "timestamp": "2026-02-26T16:23:31"
+    },
+    "cart_response_6_mos": {
+      "model_family": "NN",
+      "metric": "balanced_accuracy",
+      "value": 0.6614,
+      "accuracy": 0.5814,
+      "auc": 0.7547,
+      "f1_score": 0.4817,
+      "timestamp": "2026-02-26T16:23:31"
+    },
+    "cart_response_1_yr": {
+      "model_family": "RF",
+      "metric": "balanced_accuracy",
+      "value": 0.5,
+      "accuracy": 0.6333,
+      "auc": 0.625,
+      "f1_score": 0.4722,
+      "timestamp": "2026-02-26T16:23:31"
+    },
+    "best_response": {
+      "model_family": "LR",
+      "metric": "balanced_accuracy",
+      "value": 0.2817,
+      "accuracy": 0.6,
+      "auc": 0.5751,
+      "f1_score": 0.2761,
+      "timestamp": "2026-02-26T16:23:31"
+    },
+    "cart_response_category_D30": {
+      "model_family": "RF",
+      "metric": "balanced_accuracy",
+      "value": 0.276,
+      "accuracy": 0.4754,
+      "auc": 0.5504,
+      "f1_score": 0.272,
+      "timestamp": "2026-02-26T16:23:31"
+    },
+    "cart_response_90_days": {
+      "model_family": "RF",
+      "metric": "balanced_accuracy",
+      "value": 0.3277,
+      "accuracy": 0.6102,
+      "auc": 0.6114,
+      "f1_score": 0.3287,
+      "timestamp": "2026-02-26T16:23:31"
+    }
+  }
+}

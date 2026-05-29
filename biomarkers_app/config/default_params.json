@@ -1,0 +1,89 @@
+{
+  "data": {
+    "path": "data/unified_clinical_data.csv",
+    "validate_on_load": true
+  },
+  "pipeline": {
+    "phases": ["phase_-6", "phase_0", "phase_15", "phase_30"],
+    "targets": [
+      "D30_evaluable_gate", "D90_evaluable_gate", "M6_evaluable_gate", 
+      "Y1_evaluable_gate", "BEST_evaluable_gate",
+      "D30_response_3class", "D90_is_cr",
+      "crs_grade_ge2", "icans_grade_ge2", "max_crs_grade", "icans_max_grade",
+      "infection_100days", "relapse_or_progression", "survival_status_lfu",
+      "cat_cause_death", "cart_response_6_mos", "cart_response_1_yr",
+      "best_response", "cart_response_category_D30", "cart_response_90_days"
+    ],
+    "random_seed": 42,
+    "use_cv_evaluation": true,
+    "evaluation_mode": "nested_cv",
+    "cv_curve_source": "last_outer_fold",
+    "n_repeats": 3,
+    "test_size": 0.3,
+    "use_feature_selection": false,
+    "feature_selection_method": "mutual_info",
+    "feature_selection_top_k": 50
+  },
+  "models": {
+    "enable_nn": true,
+    "enable_lr": true,
+    "enable_xgb": true,
+    "enable_rf": true,
+    "enable_catboost": true,
+    "nn": {
+      "hidden_dims": [128, 64, 32],
+      "learning_rate": 0.001,
+      "epochs": 500,
+      "batch_size": 32,
+      "alpha": 0.0001,
+      "early_stopping": true,
+      "patience": 50
+    },
+    "xgb": {
+      "n_estimators": 400,
+      "max_depth": 6,
+      "learning_rate": 0.05,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8
+    },
+    "rf": {
+      "n_estimators": 400,
+      "max_depth": null,
+      "class_weight": "balanced"
+    },
+    "lr": {
+      "max_iter": 1000,
+      "solver": "liblinear"
+    },
+    "catboost": {
+      "iterations": 300,
+      "depth": 6,
+      "learning_rate": 0.05
+    }
+  },
+  "splitting": {
+    "test_size": 0.3,
+    "val_size": 0.25,
+    "stratify": true,
+    "group_col": null
+  },
+  "evaluation": {
+    "metrics": ["accuracy", "balanced_accuracy", "auc", "f1"],
+    "threshold_optimization": "balanced_accuracy"
+  },
+  "registry": {
+    "update_policy": "if_better",
+    "path": "models/registry.json"
+  },
+  "ui": {
+    "theme": "light",
+    "window_size": [1200, 800],
+    "console_height": 200,
+    "auto_scroll": true
+  },
+  "logging": {
+    "level": "INFO",
+    "save_to_file": true,
+    "log_dir": "logs"
+  }
+}

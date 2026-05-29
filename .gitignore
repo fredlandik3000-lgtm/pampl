@@ -1,0 +1,61 @@
+# Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Virtual envs / packaging
+.venv/
+venv/
+env/
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Tests / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# IDE / OS
+.idea/
+.vscode/
+.cursor/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Logs and local run artifacts
+logs/*
+!logs/.gitkeep
+**/logs/*.log
+catboost_info/
+**/catboost_info/
+full_train_all_log.txt
+pipeline_check_results.csv
+run_output.txt
+verify_output.txt
+
+# Clinical / proprietary data (never commit)
+data/*.csv
+data/**/*.csv
+!data/**/README.md
+
+# Training pickles and large run outputs (obtain locally after approved data access)
+results/runs/*.pkl
+results/runs/*
+!results/runs/.gitkeep
+results/latest/*
+!results/latest/.gitkeep
+results/_archive/
+
+# Secrets
+**/client_secret.json
+**/token.json
+**/token.pickle
+**/.fas-secrets/
+
+# Jupyter
+.ipynb_checkpoints/
